@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body { background-image: url('https://www.pngall.com/wp-content/uploads/2016/07/Sun-PNG-HD.png'); }
+        body {
+            background-color: rgb(32, 5, 98);
+        }
         #earth {
             background-image: url('https://www.cartegeografiche.eu/img/esempio_planisfero_politico.jpg');
             width: 70px;
@@ -40,9 +42,17 @@
             0% { background-position: 0px; }
             100% { background-position: 190px; }
         }
+        #sole {
+            position: absolute;
+            background-image: url('https://www.cartegeografiche.eu/img/esempio_planisfero_politico.jpg');
+            width: 50;
+            left: 20px;
+            right: 20px;
+        }
     </style>
 </head>
 <body>
     <div id="earth"></div>
+    <div id="sole"></div>
 </body>
 </html>
